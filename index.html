@@ -178,17 +178,25 @@
 
             
                         <!-- Veille-->
-                        <section class="resume-section" id="Veille">
-                            <div class="resume-section-content">
-                                <h2 class="mb-5">Veille</h2>
-                                <!-- Boutons pour les futures veilles -->
-                                    <!-- Introduction -->
-                                    <p>Voici deux sujets que je vais présenter dans mes futures veilles :</p>
-                                        <div>
-                                            <a href="lien_vers_ta_future_veille_1" class="btn btn-primary mr-2">Veille Future 1</a>
-                                                <div style="margin-top: 10px;"></div> <!-- Espace vertical -->
-                                            <a href="lien_vers_ta_future_veille_2" class="btn btn-primary">Veille Future 2</a>
-                                        </div>
+    <section class="resume-section" id="Veille">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Veille</h2>
+            <!-- Boutons pour les futures veilles -->
+            <!-- Introduction -->
+            <p>Sujet de veille que vous pouvez consulter :</p>
+            <div>
+                <a href="#" class="btn btn-primary mr-2" onclick="showUnderConstructionMessage()">Le Green IT</a>
+                <div style="margin-top: 10px;"></div> <!-- Espace vertical -->
+                <a href="#" class="btn btn-primary" onclick="showUnderConstructionMessage()">Veille Future 2</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+    function showUnderConstructionMessage() {
+        alert("Cette page est en travaux. Veuillez revenir plus tard.");
+    }
+    </script>
 
             </div>
         </section>
